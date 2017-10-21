@@ -1,0 +1,71 @@
+html, body {
+	height: 100%;
+	color: #fff;
+}
+
+body {
+	background-image: url("../images/scary.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 10%;
+}
+
+#questionBox {
+	background-color: #d06d34;
+	color: #fff;
+	height: 100%;
+	text-align: center;
+	border: 5px solid black;
+}
+
+h1 {
+	font-size: 90px;
+	margin-bottom: 3%;
+	color: black;
+	margin: auto;
+	font-family: 'Creepster', cursive;
+
+
+}
+
+#start {
+	font-size: 25px;
+	color: white;
+	padding: 30px;
+}
+
+#time {
+	font-size: 1.5em;
+}
+
+#question {
+	font-size: 2em;
+	margin-bottom: 1%;
+}
+
+#buttons {
+	font-size: 2.5em;
+}
+
+button {
+	width: 100%;
+	background-color: #d06d34;
+	border: 0;
+	outline: inherit;
+}
+
+button:hover {
+	background-color: #E88D5A;
+	color: #fff;
+	border: 0;
+}
+
+.click {
+	margin: 0 auto;
+}
+
+.pic {
+	height: 300px;
+}
